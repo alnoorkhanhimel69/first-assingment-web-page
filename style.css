@@ -214,3 +214,115 @@ header{
     color:#6b7280;
     font-size:16px;
 }
+  /* Pricing Section */
+
+.pricing{
+    padding:100px 0;
+    background:#ffffff;
+}
+.pricing h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:15px;
+    font-weight:800;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6b7280;
+    font-size:18px;
+    margin-bottom:60px;
+}
+
+.price-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+.price-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:40px 30px;
+    transition:.3s;
+}
+.price-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+.price-card small{
+    display:block;
+    color:#2563eb;
+    font-size:15px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.price-card h3{
+    font-size:48px;
+    margin-bottom:10px;
+}
+.price-card p{
+    color:#6b7280;
+    margin-bottom:25px;
+}
+.price-card ul{
+    margin-bottom:35px;
+}
+.price-card ul li{
+    margin-bottom:14px;
+    color:#374151;
+    position:relative;
+    padding-left:22px;
+}
+.price-card ul li::before{
+    content:"✔";
+    position:absolute;
+    left:0;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+
+.active{
+    background:#7b9de8;
+    color:#ffffff;
+    transform:scale(1.05);
+}
+.active small,
+.active p,
+.active li,
+.active h3{
+    color:#ffffff;
+}
+.active ul li::before{
+    color:#d8c7c7;
+}
+/* Buttons */
+
+.outline-btn{
+    display:block;
+    text-align:center;
+    padding:14px;
+    border:2px solid #2563eb;
+    color:#2563eb;
+    border-radius:8px;
+    font-weight:700;
+    transition:.3s;
+}
+.outline-btn:hover{
+    background:#2563eb;
+    color:#ffffff;
+}
+.blue-btn{
+    display:block;
+    text-align:center;
+    padding:14px;
+    background:#ffffff;
+    color:#2563eb;
+    border-radius:8px;
+    font-weight:700;
+    transition:.3s;
+}
+.blue-btn:hover{
+    background:#263a54;
+}
