@@ -154,3 +154,63 @@ header{
 .hero-btn:hover{
     background:#1d4ed8;
 }
+  /* Speakers Section */
+
+.speakers{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+    font-weight:800;
+}
+
+.speaker-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+.card{
+    background:#ffffff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    height:280px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:25px;
+}
+.card-body span{
+    display:inline-block;
+    background:#dbeafe;
+    color:#2563eb;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.card-body h3{
+    font-size:24px;
+    margin-bottom:10px;
+    color:#111827;
+}
+
+.card-body p{
+    color:#6b7280;
+    font-size:16px;
+}
